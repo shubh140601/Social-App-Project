@@ -1,0 +1,87 @@
+.Rightbar{
+    flex: 3.5;
+}
+.RightbarWrapper{
+    padding: 20px 20px 0 0;
+}
+.birthdayContainer{
+    display: flex;
+    align-items: center;
+}
+
+.birthdayImage{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.righbarAdd{
+    width: 100%;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+.rightbarProfile{
+    position: relative;
+}
+.friendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.righbarFriend{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+.rightbarProfileImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.righbarOnline{
+    height: 12px;
+    width : 12px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: limegreen;
+    right: 8px;
+    top: -2px;
+}
+
+.rightbarUsername{
+    font-weight: 600;
+}
+.RightbarTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.RightbarInfo{
+    margin-bottom: 20px;
+}
+.rightbarInfoItem{
+    margin-bottom: 20px;
+}
+
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+}
+.friendName{
+    font-size: 17px;
+}
+.friendImg{
+    height: 70px;
+    width: 70px;   
+    border-radius: 5px;
+    object-fit: cover;
+}
